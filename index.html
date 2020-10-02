@@ -1,71 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Akan Names</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
     <div class="container">
         <div class="jumbotron">
-        <h1 class="text-warning" id="tittle">The Akan Naming System</h1>
-        <div class="row">
-            <div class="col-md-6">
-        <img src="./img/babies.jpeg" alt="">
-    </div>
-    <div class="col-md-6">
-        <img src="./img/family.jpeg" alt="">
-    </div>
-    </div>
-        <p>The Akan people from Ghana has a unique way of naming their children,which is according to the day of the week they were born which is independent on the gender of the child.
-            This naming tradition is shared throughout West Africa and the African diaspora.
-            <a href="https://en.wikipedia.org/wiki/Akan_names#:~:text=The%20Akan%20people%20of%20Ghana,in%20which%20they%20were%20born.&text=Most%20Ghanaians%20have%20at%20least,an%20English%20or%20Christian%20name.">
-                <button type="button" class="btn btn-primary">Read more.</button>
-            </a>
-        </p>
-        <form action="/action_page.php">
-            <div class="form-group">
-              <label for="Year">Year:</label>
-              <input type="number" class="form-control" id="year" placeholder="Enter Year" name="year">
+            <h1 class="text-warning" id="tittle">The Akan Naming System</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./img/babies.jpeg" alt="">
+                </div>
+                <div class="col-md-6">
+                    <img src="./img/family.jpeg" alt="">
+                </div>
             </div>
-            <div class="form-group">
-                <label for="Month">Month:</label>
-                <input type="month" class="form-control" id="month" placeholder="Enter month" name="month">
-            </div>
-            <div class="form-group">
-                <label for="Date">Date:</label>
-                <input type="number" class="form-control" id="date" placeholder="Enter date" name="date">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlSelect1">Select gender</label>
-                <select class="form-control" id="exampleFormControlSelect1"required>
-                  <option></option>
-                  <option>male</option>
-                  <option>female</option>
-                 
-                </select>
-              </div>
+            <p>The Akan people from Ghana has a unique way of naming their children,which is according to the day of the
+                week they were born which is independent on the gender of the child.
+                This naming tradition is shared throughout West Africa and the African diaspora.
+                <a
+                    href="https://en.wikipedia.org/wiki/Akan_names#:~:text=The%20Akan%20people%20of%20Ghana,in%20which%20they%20were%20born.&text=Most%20Ghanaians%20have%20at%20least,an%20English%20or%20Christian%20name.">
+                    <button type="button" class="btn btn-primary">Read more.</button>
+                </a>
+            </p>
+            <form>
+                <div class="form-group">
+                    <label for="Year">Year:</label>
+                    <input type="number" class="form-control" id="year" placeholder="Enter Year" name="year">
+                </div>
+                <div class="form-group">
+                    <label for="Month">Month:</label>
+                    <input type="number" class="form-control" id="month" placeholder="Enter month" name="month">
+                </div>
+                <div class="form-group">
+                    <label for="Date">Date:</label>
+                    <input type="number" class="form-control" id="date" placeholder="Enter date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1">Select gender</label>
+                    <select class="form-control" id="gender">
+                        <option value=""></option>
+                        <option value="Male">male</option>
+                        <option value="Female">female</option>
+
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-success" onclick="akan()">Submit</button>
+                <button type="reset" class="btn btn-danger">Reset</button>
             </form>
-          </label>
-          <button type="submit" class="btn btn-primary" onclick="akan"()>Submit</button>
-          <button type="reset" class="btn btn-primary">Reset</button>
-        </form>
-            </div>
             
-            </div>
-           
-        
-    </div>
-        
+        </div>
 
     </div>
-   
-    <script src="js/scripts.js"></script>
+
+
+    </div>
+
+
+    </div>
+
+    <script src="./js/scripts.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>
