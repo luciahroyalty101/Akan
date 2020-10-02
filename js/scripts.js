@@ -11,6 +11,8 @@ function akan() {
     var CC = parseInt(year.substr(0, 2));
     prompt(CC);
     var YY = parseInt(year.substr(2, 3));
+    var MM = parseInt(month.substr(5,6));
+    var DD = parseInt(date.substr(8,9));
     // prompt(cc)
 
     
