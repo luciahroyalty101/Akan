@@ -7,3 +7,11 @@ function akan(){
     var month=document.parseInt(getElementById("month").value);
     var date=document.parseInt(getElementById("date").value);
 }
+var YY="Year"
+var MM="Month"
+var DD="Date"
+
+
+D(d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+
+ 
